@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Standing Desks Ltd</title>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+
+ -->
+
+</head>
+
+<body>
+
+
+  <div class="container-fluid  px-5 shadows bg-color">
+    <nav class="navbar navbar-expand-lg custom-toggler">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/logo.png" height="40" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse  " id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto nav-pills justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link active " href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active " href="#">Special Offers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active " href="#">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active " href="#">Benefits</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active " href="contactus.html">Contact Us</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+              aria-expanded="false">Account</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="register.html">Regiter with us</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="login.html">Login</a>
+            </div>
+          </li>
+        </ul>
+
+        <a class="navbar-brand" href="cart.html">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+            class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
+            <path
+              d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0M9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0" />
+          </svg>
+        </a>
+      </div>
+    </nav>
+  </div>
+<br><br>
+
+ 
+<div class="container hhh">
+  <div class="title">Registration</div>
+  <div class="content">
+    <form action="#">
+      <div class="user-details">
+        <div class="input-box">
+          <span class="details">Full Name</span>
+          <input type="text" placeholder="Enter your name" required>
+        </div>
+        <div class="input-box">
+          <span class="details">Username</span>
+          <input type="text" placeholder="Enter your username" required>
+        </div>
+        <div class="input-box">
+          <span class="details">Email</span>
+          <input type="text" placeholder="Enter your email" required>
+        </div>
+        <div class="input-box">
+          <span class="details">Phone Number</span>
+          <input type="text" placeholder="Enter your number" required>
+        </div>
+        <div class="input-box">
+          <span class="details">Password</span>
+          <input type="text" placeholder="Enter your password" required>
+        </div>
+        <div class="input-box">
+          <span class="details">Confirm Password</span>
+          <input type="text" placeholder="Confirm your password" required>
+        </div>
+      </div>
+      <div class="gender-details">
+        <input type="radio" name="gender" id="dot-1">
+        <input type="radio" name="gender" id="dot-2">
+        <input type="radio" name="gender" id="dot-3">
+        <span class="gender-title">Gender</span>
+        <div class="category">
+          <label for="dot-1">
+          <span class="dot one"></span>
+          <span class="gender">Male</span>
+        </label>
+        <label for="dot-2">
+          <span class="dot two"></span>
+          <span class="gender">Female</span>
+        </label>
+        <label for="dot-3">
+          <span class="dot three"></span>
+          <span class="gender">Prefer not to say</span>
+          </label>
+        </div>
+      </div>
+      <div class="button">
+        <input type="submit" value="Register">
+      </div>
+    </form>
+  </div>
+</div>
+
+<br><br>
+
+<script src="js/jquery-3.5.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<!-- <script src="js/bootstrap.bundle.min.js" ></script> -->
+<!-- <script src="js/bootstrap.bundle.js" ></script> -->
+<script src="js/bootstrap.min.js"></script>
+
+
+</body>
+
+
+
+
+
+
+
+</html>
